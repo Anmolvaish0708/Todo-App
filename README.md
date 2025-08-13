@@ -1,36 +1,35 @@
- 📝 Todo App
-  A simple, responsive, and persistent Todo App built with React and Context API.
-  You can add, edit, delete, and mark tasks as complete. Todos are saved in localStorage so your tasks remain even after refreshing or closing the browser.
+ # 📝 Todo App
 
-  🚀 Features
+A simple, responsive, and persistent **Todo App** built with **React** and **Context API**.  
+You can add, edit, delete, and mark tasks as complete. Todos are saved in **localStorage** so your tasks remain even after refreshing or closing the browser.
 
-✅ Add new tasks
+---
 
-✏️ Edit tasks (switches to Save mode when editing)
+## 🚀 Features
 
-❌ Delete tasks
+- ✅ Add new tasks  
+- ✏️ Edit tasks (switches to Save mode when editing)  
+- ❌ Delete tasks  
+- ✔ Mark as complete/incomplete  
+- ⌨ Add via Enter key  
+- 💾 Persistent data with localStorage  
+- 🎨 Responsive UI with Tailwind CSS  
 
-✔ Mark as complete/incomplete
+---
 
-⌨ Add via Enter key
+## 🛠 Tech Stack
 
-💾 Persistent data with localStorage
+- **React JS** – UI and component structure  
+- **Vite** – Fast development build tool  
+- **Context API** – Global state management  
+- **Tailwind CSS** – Styling and responsive design  
+- **localStorage** – Persistent data storage in browser  
 
-🎨 Responsive UI with Tailwind CSS
+---
 
-🛠 Tech Stack
+## 📂 Project Structure
 
-React JS – UI and component structure
 
-Vite – Fast development build tool
-
-Context API – Global state management
-
-Tailwind CSS – Styling and responsive design
-
-localStorage – Persistent data storage in browser
-
-📂 Project Structure
 
 src
  ┣ 📂components
