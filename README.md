@@ -1,12 +1,56 @@
-# React + Vite
+ 📝 Todo App
+  A simple, responsive, and persistent Todo App built with React and Context API.
+  You can add, edit, delete, and mark tasks as complete. Todos are saved in localStorage so your tasks remain even after refreshing or closing the browser.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  🚀 Features
 
-Currently, two official plugins are available:
+✅ Add new tasks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✏️ Edit tasks (switches to Save mode when editing)
 
-## Expanding the ESLint configuration
+❌ Delete tasks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✔ Mark as complete/incomplete
+
+⌨ Add via Enter key
+
+💾 Persistent data with localStorage
+
+🎨 Responsive UI with Tailwind CSS
+
+🛠 Tech Stack
+
+React JS – UI and component structure
+
+Vite – Fast development build tool
+
+Context API – Global state management
+
+Tailwind CSS – Styling and responsive design
+
+localStorage – Persistent data storage in browser
+
+📂 Project Structure
+
+src
+ ┣ 📂components
+ ┃ ┣ TodoInput.jsx
+ ┃ ┗ TodoItem.jsx
+ ┣ 📂context
+ ┃ ┗ TodoContext.jsx
+ ┣ App.jsx
+ ┗ main.jsx
+
+📦 Installation & Setup
+1. Clone the repo
+git clone https://github.com/your-username/todo-app.git
+cd todo-app
+
+2. Install dependencies
+npm install
+
+3. Run the development server
+npm run dev
+
+📜 License
+This project is open-source and available under the MIT License.
